@@ -33,7 +33,7 @@ def chat():
 def send_email():
     msg = Message('Hello from Flask', sender='jo3592@student.uni-lj.si', recipients=['jo3592@student.uni-lj.si'])
     msg.body = 'This is a test email sent from Flask using Outlook as the email service provider.'
-    #mail.send(msg)
+    mail.send(msg)
 
     return render_template('chat.html')
 
