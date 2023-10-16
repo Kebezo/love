@@ -13,7 +13,7 @@ app.config['MAIL_SERVER'] = 'smtp.office365.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'jernej.ozebek@gmail.com'
-app.config['MAIL_PASSWORD'] = '5ekest4N'
+app.config['MAIL_PASSWORD'] = ''
 mail: Mail = Mail(app)
 
 Session(app)
