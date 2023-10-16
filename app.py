@@ -19,7 +19,7 @@ mail: Mail = Mail(app)
 Session(app)
 
 outlook.username = 'jernej.ozebek@gmail.com'
-outlook.password = '5ekest4N'
+outlook.password = ''
 
 
 @app.route('/', methods=['GET', 'POST'])
